@@ -1,0 +1,87 @@
+body {
+    background-color: #9fc7aa;
+    color: rgb(75 116 220);
+    font-family: times new roman
+    font-size: 16px;
+    text-align: center;
+}
+
+.imagem-topo {
+    width: 1250px;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.vertical-menu {
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid darkblue;
+    background-color: #f2f2f2;
+}
+
+.vertical-menu a {
+    background-color: #D3D3D3;
+    color: rgba(0,0,0,.8);
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.vertical-menu a:hover {
+    background-color: #C0C0C0;
+}
+
+.vertical-menu a.active {
+    background-color: #A9A9A9;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #392a94;
+}
+
+p {
+    color: #455668;
+}
+
+h5 {
+    font-size: 40px;
+    color: #3a2c92;
+}
+
+hr {
+    border: 1px solid #201f84;
+    margin: 20px auto;
+    width: 80%;
+}
+
+ol, ul {
+    margin-left: 20px;
+    text-align: left;
+    color: #23496f;
+}
+
+iframe {
+    width: 80%;
+    height: 315px;
+    margin: 20px auto;
+    display: block;
+    border: 2px solid darkblue;
+}
+
+#dicas, #maus-costumes, #videos1, #videos2, #cursos {
+    border: 2px solid darkblue;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.cursos img, iframe {
+    margin: 0 auto;
+    display: block;
+}
